@@ -1,10 +1,10 @@
 import React from "react";
-import Pagination from "./problems/pagination/Pagination";
+import ProgressBar from "./problems/progressbar/ProgressBar";
 const App = () => {
   return (
     <div>
-      <Pagination/>
-  
+    
+      <ProgressBar/>
    </div>
   )
   

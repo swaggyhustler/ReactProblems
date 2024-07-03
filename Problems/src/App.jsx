@@ -1,9 +1,13 @@
 import React from "react";
-import UserInput from "./problems/showuserinputinrealtime/UserInput";
+import Pagination from "./problems/pagination/Pagination";
 const App = () => {
-  return <div>
-        <UserInput/>
-    </div>;
+  return (
+    <div>
+      <Pagination/>
+  
+   </div>
+  )
+  
 };
 
 export default App;
